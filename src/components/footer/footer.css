@@ -1,13 +1,17 @@
+* {
+  /* border: 1px solid rgba(255, 0, 0, 0.3); */
+}
+
 .footer-container {
   margin-top: 150px;
   display: flex;
   align-items: center;
   width: 100%;
   flex-shrink: 0;
-  position: absolute;
-  left: 0;
-  justify-content: space-around;
-  padding: 39px 0;
+  position: relative;
+  justify-content: space-between;
+  padding: 39px 8.72727273vw;
+  gap: 10px;
 }
 
 .footer-bg {
@@ -16,8 +20,15 @@
   position: absolute;
   z-index: -1;
   left: 0;
+  bottom: 0;
   opacity: 0.1002;
   background: #9eabb2;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10.6666667vw;
 }
 
 .small-logo {
@@ -82,6 +93,11 @@
     margin-top: 170px;
     flex-direction: column;
     padding: 52px 0;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 0;
   }
 
   .footer-info {

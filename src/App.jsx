@@ -7,20 +7,17 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
-      <img src="/src/assets/images/bg-header-desktop.png" className="bg-img" style={eee} />
+      <img src="/src/assets/images/bg-header-desktop.png" className="bg-img" />
 
-      <Header />
-      <Buttons />
-
-      <Main />
+      <main>
+        <Header />
+        <Buttons />
+        <Main />
+      </main>
 
       <Footer />
     </>
   );
 }
-
-const eee = {
-  backgroundColor: "black",
-};
 
 export default App;

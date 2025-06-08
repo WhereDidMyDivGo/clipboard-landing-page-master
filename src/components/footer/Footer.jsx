@@ -6,13 +6,15 @@ function Footer() {
       <div className="footer-container">
         <span className="footer-bg"></span>
 
-        <img src="src/assets/images/logo.svg" className="small-logo" />
-        <div className="footer-info">
-          <p>FAQs</p>
-          <p>Privacy Policy</p>
-          <p>Install Guide</p>
-          <p>Contact Us</p>
-          <p>Press Kit</p>
+        <div className="footer-wrapper">
+          <img src="src/assets/images/logo.svg" className="small-logo" />
+          <div className="footer-info">
+            <p>FAQs</p>
+            <p>Privacy Policy</p>
+            <p>Install Guide</p>
+            <p>Contact Us</p>
+            <p>Press Kit</p>
+          </div>
         </div>
         <div className="social-media">
           <img src="src/assets/images/icon-facebook.svg" />
