@@ -13,6 +13,7 @@ function App() {
         <Header />
         <Buttons />
         <Main />
+        <Buttons />
       </main>
 
       <Footer />

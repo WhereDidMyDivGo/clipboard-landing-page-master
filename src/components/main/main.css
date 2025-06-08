@@ -1,9 +1,8 @@
 .main-container {
-  margin: 150px 0;
+  margin: 150px 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
 }
 
 /* ######## text field 1 section ######## */
@@ -39,31 +38,27 @@
 /* ######## field 1 section ######## */
 
 .field-1 {
-  margin: 150px 0;
+  margin: 80px 0 150px;
   display: flex;
-  /* gap: 110px; */
-  gap: 13.0909091vw;
+  gap: 110px;
   align-self: flex-start;
   margin-left: calc(-32px - 30px);
-  /* border: 1px solid blue; */
 
   img {
-    /* width: 752px;
-    height: 572px; */
-    width: 52.2222222vw;
-    aspect-ratio: 752 / 572;
+    width: 752px;
+    height: 572px;
     flex-shrink: 0;
   }
+
+  /* ######## text field 2 section ######## */
 
   .text-field-2 {
     display: flex;
     flex-direction: column;
     gap: 56px;
     padding: 68px 0 0;
-    /* border: 1px solid red; */
 
     div {
-      /* border: 1px solid purple; */
       display: flex;
       flex-direction: column;
       max-width: 350px;
@@ -88,6 +83,162 @@
         letter-spacing: 0.12px;
       }
     }
+  }
+}
+
+/* ######## text field 3 section ######## */
+
+.text-field-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+
+  h1 {
+    max-width: 730px;
+    color: #4c545c;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+  }
+
+  p {
+    max-width: 730px;
+    color: #9eabb2;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+  }
+}
+
+/* ######## img ######## */
+
+.devices-img {
+  margin: 110px 0 161px;
+  width: 812px;
+  height: 475px;
+  flex-shrink: 0;
+}
+
+/* ######## text field 4 section ######## */
+
+.text-field-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+
+  h1 {
+    max-width: 730px;
+    color: #4c545c;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+  }
+
+  p {
+    max-width: 730px;
+    color: #9eabb2;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+  }
+}
+
+/* ######## field 2 section ######## */
+
+.field-2 {
+  margin: 72px 0 150px;
+  display: flex;
+  gap: 30px;
+
+  div {
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+
+    div {
+      gap: 16px;
+
+      h1 {
+        max-width: 730px;
+        color: #4c545c;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.587px;
+      }
+
+      p {
+        max-width: 730px;
+        color: #9eabb2;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.135px;
+      }
+    }
+  }
+}
+
+/* ######## companies field section ######## */
+
+.companies-field {
+  width: 100%;
+  max-width: 1110px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+/* ######## text field 5 section ######## */
+
+.text-field-5 {
+  margin: 150px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+
+  h1 {
+    max-width: 730px;
+    color: #4c545c;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+  }
+
+  p {
+    max-width: 730px;
+    color: #9eabb2;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
   }
 }
 
