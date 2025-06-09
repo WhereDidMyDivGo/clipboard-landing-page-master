@@ -244,6 +244,25 @@
 
 /* ######## responsive ######## */
 
+@media (max-width: 1100px) {
+  .field-1 {
+    align-self: unset;
+    margin-left: 0;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: unset;
+    }
+  }
+
+  .devices-img {
+    width: 100%;
+    height: unset;
+  }
+}
+
 @media (max-width: 600px) {
   .main-container {
     margin: 160px 0 170px;
@@ -261,6 +280,30 @@
       font-size: 16px;
       line-height: 26px;
       letter-spacing: 0.12px;
+    }
+  }
+
+  .field-1 {
+    img {
+      width: 312px;
+      height: 238px;
+    }
+
+    .text-field-2 {
+      gap: 48px;
+      div {
+        text-align: center;
+        gap: 10px;
+
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          text-align: center;
+          line-height: 26px;
+        }
+      }
     }
   }
 }

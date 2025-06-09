@@ -4,10 +4,13 @@ import Buttons from "./components/buttons/Buttons";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 
+//////////////// images ////////////////
+import bgHeaderDesktop from "./assets/images/bg-header-desktop.png";
+
 function App() {
   return (
     <>
-      <img src="/src/assets/images/bg-header-desktop.png" className="bg-img" />
+      <img src={bgHeaderDesktop} className="bg-img" />
 
       <main>
         <Header />

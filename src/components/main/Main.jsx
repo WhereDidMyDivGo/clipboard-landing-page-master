@@ -1,5 +1,17 @@
 import "./main.css";
 
+//////////////// images ////////////////
+import imageComputer from "../../assets/images/image-computer.png";
+import imageDevices from "../../assets/images/image-devices.png";
+import iconPreview from "../../assets/images/icon-preview.svg";
+import iconText from "../../assets/images/icon-text.svg";
+import iconBlacklist from "../../assets/images/icon-blacklist.svg";
+import logoGoogle from "../../assets/images/logo-google.png";
+import logoIbm from "../../assets/images/logo-ibm.png";
+import logoMicrosoft from "../../assets/images/logo-microsoft.png";
+import logoHp from "../../assets/images/logo-hp.png";
+import logoVectorGraphics from "../../assets/images/logo-vector-graphics.png";
+
 function Main() {
   return (
     <>
@@ -10,7 +22,7 @@ function Main() {
         </div>
 
         <div className="field-1">
-          <img src="src/assets/images/image-computer.png" />
+          <img src={imageComputer} />
           <div className="text-field-2">
             <div>
               <h1>Quick Search</h1>
@@ -32,7 +44,7 @@ function Main() {
           <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
         </div>
 
-        <img src="src/assets/images/image-devices.png" className="devices-img" />
+        <img src={imageDevices} className="devices-img" />
 
         <div className="text-field-4">
           <h1>Supercharge your workflow</h1>
@@ -41,7 +53,7 @@ function Main() {
 
         <div className="field-2">
           <div>
-            <img src="src/assets/images/icon-preview.svg" />
+            <img src={iconPreview} />
             <div>
               <h1>Create blacklists</h1>
               <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
@@ -49,7 +61,7 @@ function Main() {
           </div>
 
           <div>
-            <img src="src/assets/images/icon-text.svg" />
+            <img src={iconText} />
 
             <div>
               <h1>Plain text snippets</h1>
@@ -58,7 +70,7 @@ function Main() {
           </div>
 
           <div>
-            <img src="src/assets/images/icon-blacklist.svg" />
+            <img src={iconBlacklist} />
             <div>
               <h1>Sneak preview</h1>
               <p>Quick preview of all snippets on your Clipboard for easy access.</p>
@@ -67,11 +79,11 @@ function Main() {
         </div>
 
         <div className="companies-field">
-          <img src="src/assets/images/logo-google.png" />
-          <img src="src/assets/images/logo-ibm.png" />
-          <img src="src/assets/images/logo-microsoft.png" />
-          <img src="src/assets/images/logo-hp.png" />
-          <img src="src/assets/images/logo-vector-graphics.png" />
+          <img src={logoGoogle} />
+          <img src={logoIbm} />
+          <img src={logoMicrosoft} />
+          <img src={logoHp} />
+          <img src={logoVectorGraphics} />
         </div>
 
         <div className="text-field-5">

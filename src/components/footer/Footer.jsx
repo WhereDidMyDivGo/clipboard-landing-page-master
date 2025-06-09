@@ -1,5 +1,11 @@
 import "./footer.css";
 
+//////////////// images ////////////////
+import logo from "../../assets/images/logo.svg";
+import iconFacebook from "../../assets/images/icon-facebook.svg";
+import iconTwitter from "../../assets/images/icon-twitter.svg";
+import iconInstagram from "../../assets/images/icon-instagram.svg";
+
 function Footer() {
   return (
     <>
@@ -7,7 +13,7 @@ function Footer() {
         <span className="footer-bg"></span>
 
         <div className="footer-wrapper">
-          <img src="src/assets/images/logo.svg" className="small-logo" />
+          <img src={logo} className="small-logo" />
           <div className="footer-info">
             <p>FAQs</p>
             <p>Privacy Policy</p>
@@ -17,9 +23,9 @@ function Footer() {
           </div>
         </div>
         <div className="social-media">
-          <img src="src/assets/images/icon-facebook.svg" />
-          <img src="src/assets/images/icon-twitter.svg" />
-          <img src="src/assets/images/icon-instagram.svg" />
+          <img src={iconFacebook} />
+          <img src={iconTwitter} />
+          <img src={iconInstagram} />
         </div>
       </div>
     </>
